@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    background-color: thistle;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    color: fuchsia;
+    text-align: center;
+    font-weight: 400;
+    
+}
