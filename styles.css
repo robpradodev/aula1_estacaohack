@@ -1,8 +1,38 @@
 body {
     margin: 0;
-    background-color: thistle;
+    
     font-family: 'Montserrat', sans-serif;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100px;
+    background-color: aliceblue;    
+}
+
+
+.menu {
+    margin-top: 55px;
+}
+
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #4889f2;
+}
+
+.menu img{
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+
 
 h1, h2 {
     color: fuchsia;
@@ -11,13 +41,82 @@ h1, h2 {
 
 }
 
+
+
 p {
     margin-left: 10px;
 }
 
+
+#gato{
+    width: 400%;
+    height:400%;
+
+}
+
+.centro{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.centro section{
+    float: right;
+}
+
+.centro aside{
+    float: left;
+}
+
+.conteudo {
+   display: flex;
+
+}
+
+.conteudo img{
+    align-content: flex-start;
+    margin-left: 120px;
+}
+
+
+
+.conteudo iframe{
+    align-content: flex-end;
+    margin-left: 250px;
+}
+
+.legenda {
+    color: red;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 120px;
+}
+
+.rodape {
+    background-color: gainsboro;
+    content: center;
+}
+
+
+.botoes {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
 button {
-    border: solid blue 2px;
-    background-color: 0rem;
+    border: solid grey 2px;
+    background-color: lightgrey;
     border-radius: 10%;
-    padding: 10px;
+    padding: 15px;
+    display: inline-block;
+}
+
+
+
+#especial {
+    border: solid fuchsia 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
 }
